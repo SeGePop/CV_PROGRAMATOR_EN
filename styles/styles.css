@@ -1,0 +1,232 @@
+:root {
+  --highlight: #047690;
+  --highlight2: #00dee6;
+  --body_background: rgb(20, 20, 20);
+  --background: #333;
+  --text-color: white;
+  --text-size-standard: 22px;
+  --font-size-smaller: 14px;
+}
+
+/* Our App */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f6f6fa;
+}
+
+.app-wrapper {
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 40px auto;
+}
+/* Sidebar Styles */
+.sidebar-section {
+  background-color: #047690;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  width: 30%;
+}
+.sidebar-image {
+  margin-top: 40px;
+  padding-left: 40px;
+}
+.contacts-container {
+  padding-left: 40px;
+}
+.personal-website {
+  color: white;
+}
+.contacts-header {
+  padding-top: 10px;
+  color: white;
+  font-size: var(--text-size-standard);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contacts-item {
+  color: white;
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+}
+.contacts-phone {
+  color: #047690;
+  text-decoration: none;
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin-left: 10px;
+}
+.contacts-email {
+  color: #00dee6;
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+
+  margin-left: 10px;
+}
+.contacts-element {
+  margin-top: -12px;
+}
+
+.skills-section {
+  margin-top: 40px;
+}
+.skills-header {
+  color: white;
+  font-family: Montserrat;
+  font-size: var(--text-size-standard);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.skills-list {
+  color: white;
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin-top: -12px;
+  margin-left: -10px;
+}
+/* Main Content Styles */
+.right-side-container {
+  padding-left: 88px;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+.about-me-profession {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.about-me-name {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -10px;
+  color:#047690;
+}
+.about-me-description {
+  color: #595959;
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin-top: -15px;
+}
+.projects-section {
+  margin-top: 20px;
+}
+.projects-header {
+  font-size: var(--text-size-standard);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.projects-list {
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  margin-left: -20px;
+  margin-top: -10px;
+}
+.project-name {
+  color: #595959;
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  text-decoration-line: underline;
+}
+.project-info {
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.work-experience-section {
+  margin-top: 40px;
+}
+.work-experience-header {
+  font-size: var(--text-size-standard);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.company-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.company-info {
+  color: #047690;
+  margin-left: 10px;
+}
+.company-time {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -5px;
+}
+.company-elements-list {
+  color: #595959;
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin-left: -15px;
+  margin-top: -10px;
+}
+.company-container {
+  margin-top: -10px;
+}
+.education-section {
+  margin-top: 0px;
+}
+.education-header {
+  font-size: var(--text-size-standard);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.education-container{
+    margin-top:10px;
+}
+
+.education-name {
+  color: #047690;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+}
+.education-position {
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  margin-top: -15px;
+}
+.education-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top:-5px;
+}
